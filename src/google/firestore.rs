@@ -79,3 +79,36 @@ impl GoogleFirestore {
 		http::post_json(url, Some(headers), params).await
 	}
 }
+
+fn generate_params(params: Value) -> String {
+
+	if params.is_array() {
+
+	}
+	else if params.is_boolean() {
+
+	}
+	else if params.is_f64() {
+
+	}
+	else if params.is_i64() {
+
+	}
+	else if params.is_null() {
+
+	}
+	else if params.is_number() {
+
+	}
+	else if params.is_object() {
+
+	}
+	else if params.is_string() {
+
+	}
+	else {
+		// error
+	}
+
+	"".to_string()
+}
