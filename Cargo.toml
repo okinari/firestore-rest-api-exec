@@ -1,5 +1,5 @@
 [package]
-name = "rust-sample"
+name = "firestore-rest-api-exec"
 version = "0.1.0"
 edition = "2021"
 
